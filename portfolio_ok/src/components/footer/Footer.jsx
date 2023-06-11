@@ -1,11 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
-import SocialIcons from '../socialicons/SocialIcons'
+import SocialIcons from '../header/HeaderSocials'
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>ATAVARES</a>
+      <a href="#" className='footer__logo' alt='logoapp' >ATAVARES</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>

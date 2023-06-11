@@ -15,6 +15,7 @@
 }
 
 .about__me-image {
+    background-color: var(--color-primary);
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);

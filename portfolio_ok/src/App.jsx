@@ -11,12 +11,9 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
 
-
-
-
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Nav />
       <About />
@@ -26,8 +23,7 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-
-    </div>
+    </>
   )
 }
 

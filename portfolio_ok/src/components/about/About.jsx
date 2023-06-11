@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Andre from '../../assets/andre-tavares-about.webp'
+import ABOUT from '../../assets/me_ok.png'
 import {GiNinjaHead} from 'react-icons/gi'
 import {GoOrganization} from 'react-icons/go'
 import {RiTeamFill} from 'react-icons/ri'
@@ -15,7 +15,7 @@ const About = () => {
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
-              <img src={Andre} alt="André Tavares por Nathalia Millen" />
+              <img src={ABOUT} alt="Gabriel Santos" />
             </div>
           </div>
           <div className="about__content">
