@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id='about'>
       <h5 className='text-light'>Sobre minha atuação em projetos de</h5>
-      <h2 className='text-light'>Tecnologia, design, marketing e educação</h2>
+      <h2>Tecnologia, design, marketing e educação</h2>
 
         <div className="container about__container">
           <div className="about__me">
@@ -23,26 +23,23 @@ const About = () => {
               <article className="about__card">
                 <GiNinjaHead className='about__icon'/>
                 <h5>Experiência</h5>
-                <small>+20 anos de atuação</small>
+                <small>+2 anos</small>
               </article>
               <article className="about__card">
                 <GoOrganization className='about__icon'/>
                 <h5>Clientes</h5>
-                <small>Apoio e consultoria</small>
+                <small>Dev, Design, Marketing</small>
               </article>
               <article className="about__card">
                 <RiTeamFill className='about__icon'/>
                 <h5>Projetos</h5>
-                <small>Parcerias e Equipes</small>
+                <small>+25 projetos</small>
               </article>
             </div>
             <p>
-            Mais de 20 anos dedicados a projetos nas áreas de educação, tecnologia e desenvolvimento profissional. 
-            Tive o privilégio de compor e liderar equipes em projetos de integração de sistemas, desenvolvimento de aplicações, inovação e gestão do conhecimento. 
-            Total dedicação aos clientes e projetos, compartilhando conhecimentos nas modalidades presencial e a distância. 
-            Atualmente, desenvolvo, customizo e otimizo sites com foco em front-end, UX design, SEO e outras estratégias do marketing digital.
+            Sou um desenvolvedor web em constante busca de conhecimentos,  em <code> HTML, CSS, JavaScript, React e Python.</code>, tenho participado de projetos de criação de interfaces responsivas, escrevendo código limpo e resolvendo problemas. <br /> Estou sempre me atualizado com as últimas tendências do setor e possuo habilidades para trabalhar de forma independente e em equipe. <br /> Tenho um forte senso compromisso em entregar projetos de alta qualidade dentro dos prazos estabelecidos. Estou em busca de oportunidades para crescer profissionalmente e poder contribuir com a qualidade do meu trabalho.
             </p>
-            <a href="#contact" className="btn btn-primary">Saiba mais.</a>
+            <a href="#contact" className="btn btn-primary">Vamos conversar!</a>
           </div>
         </div>
     </section>

@@ -43,7 +43,7 @@ export default function Header() {
           <img src={ME} alt="Gabriel Santos" />
         </div>
         <a href="#contact" className='scroll__down'>
-          Para Baixo!
+          Para Cima!
         </a>
       </div>
     </header>
