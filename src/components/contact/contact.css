@@ -1,0 +1,91 @@
+.contatos__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contatos__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contatos__option {
+    background-color: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+
+.contatos__option>div {
+    display: flex;
+}
+
+.contatos__option:hover {
+    background-color: transparent;
+    border: 1px solid var(--color-bg-variant);
+    transition: var(--transition);
+}
+
+.contatos__option-icon {
+    font-size: 1.5rem;
+}
+
+.contatos__option a {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    border: 1px solid var(--color-primary);
+    border-radius: 2rem;
+}
+
+.contatos__option a:hover{
+    background-color: var(--color-primary);
+}
+
+
+
+/* ________________ FORM __________________ */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    background-color: transparent;
+    border: 2px solid var(--color-primary-variant);
+    color: var(--color-white);
+    resize: none;
+}
+
+button{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* Media Queries MD */
+@media screen and (max-width: 1024px) {
+    .contatos__container {
+        width: var(--container-width-md);
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }
+    
+}
+
+/* Media Queries SM */
+@media screen and (max-width: 600px) {
+    .contatos__container{
+        width: var(--container-width-sm);
+    }
+}

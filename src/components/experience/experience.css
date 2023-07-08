@@ -1,0 +1,112 @@
+.experience {
+    padding: 10px;
+    height: 150vh;
+}
+
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+        margin: 0 auto;
+}
+
+.experience__container>div {
+    background: var(--color-bg-variant);
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition)
+}
+
+.experience__container>div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant)
+}
+
+.experience__container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.experience__details {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.experience__details>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__details>div>h4{
+    margin: 0;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.destaque {
+    background-color: #05052a;
+}
+
+/* progress tag */
+
+/* For Firefox */
+progress::-moz-progress-bar {
+    background: var(--color-primary-variant);
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+    background: var(--color-primary);
+}
+
+/* For IE10 */
+progress {
+    background: var(--color-primary);
+    width: auto;
+
+}
+
+/* Media queries MD */
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .experience__container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        column-gap: 2rem;
+    }
+}
+
+/* Media queries SM */
+
+@media screen and (max-width: 600px) {
+    .experience__container {
+        gap: 1.2rem;
+    }
+
+    .experience__container>div {
+        width: 100%;
+    }
+
+}
