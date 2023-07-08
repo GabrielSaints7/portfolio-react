@@ -1,13 +1,8 @@
-.experience {
-    padding: 10px;
-    height: 150vh;
-}
-
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-        margin: 0 auto;
+    
 }
 
 .experience__container>div {
